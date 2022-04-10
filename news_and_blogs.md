@@ -9,7 +9,7 @@ permalink: /news_and_blogs/
 <div class="card" style="width: 18rem;">
 {% for file in site.static_files %}
     {% if (file.basename == post.title) %}
-  <img src="{{ file.path }}" class="card-img-top" alt="{{ file.name }}">
+  <img src="{{ file.path | relative_url }}" class="card-img-top" alt="{{ file.name }}">
     {% endif %}
 {% endfor %}
   <div class="card-body">
