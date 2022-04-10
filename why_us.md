@@ -1,7 +1,7 @@
 ---
 layout: home
 page_title: Why EduValor
-permalink: /yetay/why_us/
+permalink: /why_us/
 ---
 
 # OVERVIEW - TEACHING AND LEARNING
