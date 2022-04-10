@@ -15,7 +15,7 @@ permalink: /news_and_blogs/
   <div class="card-body">
     <h5 class="card-title">{{ post.title }}</h5>
     <p class="card-text">{{ post.description }}</p>
-    <a href="{{post.url | relative_url }}" class="btn btn-dark">Read More</a>
+    <a href="{{ post.url | relative_url }}" class="btn btn-dark">Read More</a>
   </div>
 </div>
 </div>
